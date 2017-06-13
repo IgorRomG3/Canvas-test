@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+<body>
+	<main class="main">
+		<div class="container">
+			<span class="front text">front</span>
+			<div class="f-container rectangles">
+				<canvas style="float:left;background: transparent" width='369' height='333' id='rect-left'></canvas>
+				<canvas style="float:right;background: transparent;float:right" width='369' height='333' id='rect-right'></canvas>
+				<div class="clearfix"></div>
+			</div>
+			<div class="f-container gonfalons">
+				<canvas style="margin-top: 50px;float:left" id="gonfalon-left" width="236" height="215"></canvas>
+				<canvas style="margin-top: 50px; float:right" id="gonfalon-right" width="236" height="215"></canvas>
+				<div class="clearfix"></div>
+			</div>
+			<div class="f-container shwendels">
+				<canvas style="margin-top: 50px;float:left" id="shwendel-left" width="462" height="251"></canvas>
+				<canvas style="margin-top: 50px;float:right" id="shwendel-right" width="462" height="251"></canvas>
+				<div class="clearfix"></div>
+			</div>
+			<span class="back text">back</span>
+			<button class="forms">Forms</button>
+		</div>
+		<div class="popup">
+			<div class="popup-content">
+				<img class="flag-img gonfalon-img" src="img/Gonfalon.png" alt="">
+				<img class="flag-img shwendel-img" src="img/Flag-with-Swendel.png" alt="">
+			</div>
+		</div>
+	</main>
+	<script src="js/main.js"></script>
+</body>
+</html>
